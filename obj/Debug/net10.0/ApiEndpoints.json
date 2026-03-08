@@ -1,0 +1,140 @@
+[
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.BugsController",
+    "Method": "DeleteBug",
+    "RelativePath": "api/Bugs/DeleteBug/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.BugsController",
+    "Method": "getAllBugs",
+    "RelativePath": "api/Bugs/getAllBugs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BugTrackerAPI.DTO.JoinGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.BugsController",
+    "Method": "getAllSolvedBugs",
+    "RelativePath": "api/Bugs/getAllSolvedBugs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BugTrackerAPI.DTO.JoinGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.BugsController",
+    "Method": "ReportBug",
+    "RelativePath": "api/Bugs/reportBug",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BugTrackerAPI.DTO.ReportBugRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.BugsController",
+    "Method": "Solved",
+    "RelativePath": "api/Bugs/Solved/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.UsersController",
+    "Method": "CreateGroup",
+    "RelativePath": "api/Users/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.UsersController",
+    "Method": "JoinGroup",
+    "RelativePath": "api/Users/JoinGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BugTrackerAPI.DTO.JoinGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.UsersController",
+    "Method": "LogIn",
+    "RelativePath": "api/Users/LogIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BugTrackerAPI.DTO.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackerAPI.Controllers.UsersController",
+    "Method": "SignUp",
+    "RelativePath": "api/Users/SignUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BugTrackerAPI.DTO.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

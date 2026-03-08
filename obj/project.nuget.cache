@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "HEdS9H/1mY8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rohis\\OneDrive\\Desktop\\BugTracker\\BugTrackerAPI\\BugTrackerAPI\\BugTrackerAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rohis\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\rohis\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "C:\\Users\\rohis\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\rohis\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\rohis\\.nuget\\packages\\npgsql\\10.0.1\\npgsql.10.0.1.nupkg.sha512",
+    "C:\\Users\\rohis\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.4\\swashbuckle.aspnetcore.10.1.4.nupkg.sha512",
+    "C:\\Users\\rohis\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.4\\swashbuckle.aspnetcore.swagger.10.1.4.nupkg.sha512",
+    "C:\\Users\\rohis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.4\\swashbuckle.aspnetcore.swaggergen.10.1.4.nupkg.sha512",
+    "C:\\Users\\rohis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.4\\swashbuckle.aspnetcore.swaggerui.10.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
