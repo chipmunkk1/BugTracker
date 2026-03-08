@@ -1,6 +1,6 @@
 # Full-Stack Bug Tracker 
 
-**[Live Demo on Azure] (Insert your link here)** | **[Video Walkthrough] (Insert your video link here)**
+**[Live Demo on Azure] (https://bug-tracker-front-end-chi.vercel.app/index.html))
 
 A full-stack bug tracking application designed to help development teams log, manage, and resolve project issues collaboratively. This platform provides isolated workspaces, real-time issue tracking, and dynamic severity color-coding to help teams prioritize critical bugs.
 
