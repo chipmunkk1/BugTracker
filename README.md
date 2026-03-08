@@ -1,4 +1,4 @@
-# Full-Stack Bug Tracker 🐛
+# Full-Stack Bug Tracker 
 
 **[Live Demo on Azure] (Insert your link here)** | **[Video Walkthrough] (Insert your video link here)**
 
@@ -23,20 +23,24 @@ Users must create an account and log in to access team workspaces. The app uses 
 
 ### 2. Isolated Workspaces
 Once authenticated, users are prompted to join a workspace. Teams can create a brand new group (which generates a unique 9-digit access code) or join an existing project to collaborate on the same issue board.
-![Join or Create Group](./image_598bdb.png)
+![Join or Create Group]<img width="1908" height="950" alt="image" src="https://github.com/user-attachments/assets/10f2bc72-4873-43db-bb07-aad9256aac5a" />
+
 
 ### 3. Clean Reporting Dashboard
 The main dashboard features a streamlined reporting form. Users can document exactly where the bug occurred (File Name), provide a detailed description, and assign a severity score (1-10).
-![Report a Bug Dashboard](./image_59323c.png)
+![Report a Bug Dashboard] <img width="1885" height="746" alt="image" src="https://github.com/user-attachments/assets/362fde86-3eb1-455a-873c-603bfbf731b0" />
+
 
 ### 4. Dynamic Active Bug Board
 Active bugs are fetched asynchronously via the .NET Core API. The UI dynamically color-codes issues based on their severity level (e.g., Level 10 Critical bugs appear in red, Medium severity in yellow). This allows developers to assess board priorities at a glance.
 ![Color-coded Active Bugs](./image_59325a.png)
-*(Note: Earlier iterations of the UI focused on structural data mapping before the dynamic color-coding and modern navigation were introduced, as seen [here](./image_32b226.png)).*
+*(Note: Earlier iterations of the UI focused on structural data mapping before the dynamic color-coding and modern navigation were introduced, as seen [here]<img width="1865" height="624" alt="image" src="https://github.com/user-attachments/assets/ff2e4686-9ccc-4062-b5fb-da08c5344b44" />
+
 
 ### 5. Issue Resolution & History
 When a bug is squashed, users can mark it as solved. This removes it from the active board and sends it to the "Solved Bugs Checklist," maintaining a clean workspace while preserving project history.
-![Solved Bugs Checklist](./image_5931a3.png)
+![Solved Bugs Checklist]<img width="1908" height="918" alt="image" src="https://github.com/user-attachments/assets/2d4fbb6b-9479-431b-bce9-4d7df284a9b2" />
+
 
 ---
 
