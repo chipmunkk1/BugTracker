@@ -17,7 +17,9 @@ A full-stack bug tracking application designed to help development teams log, ma
 
 ### 1. Secure Authentication
 Users must create an account and log in to access team workspaces. The app uses secure state management to maintain the user's session.
-![Login and Signup](./image_598c34.png)
+![Login and Signup] <img width="1899" height="944" alt="image" src="https://github.com/user-attachments/assets/a131ade1-40bd-4613-b3e4-2e3072cc2bab" />
+
+
 
 ### 2. Isolated Workspaces
 Once authenticated, users are prompted to join a workspace. Teams can create a brand new group (which generates a unique 9-digit access code) or join an existing project to collaborate on the same issue board.
