@@ -48,10 +48,3 @@ When a bug is squashed, users can mark it as solved. This removes it from the ac
 * **Micro-ORM Integration:** Utilized **Dapper** to execute raw, highly optimized SQL queries against the PostgreSQL database, ensuring fast read/write speeds and clean mapping to C# Data Transfer Objects (DTOs).
 * **Asynchronous API:** Built a decoupled RESTful Web API using C# .NET Core to handle all database operations, allowing the frontend to update the UI asynchronously via the JavaScript Fetch API without page reloads.
 * **Cloud Infrastructure:** The application logic is hosted on Azure Web Services, securely connected to a remote PostgreSQL database hosted on Aiven via encrypted connection strings.
-
-## 🚀 Getting Started (Local Development)
-To run this project locally:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YourUsername/BugTracker.git](https://github.com/YourUsername/BugTracker.git)
